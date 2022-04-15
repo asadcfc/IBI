@@ -3,6 +3,7 @@ Individualized Bayesian Inference (IBI) algorithm is used for estimating the gen
 
 # Example
 subIDs, varIDs, variants, df_variants = read_variantsF1 ('file_path/Example_Variants_file_name.csv')
+
 subIDs_BP, traitIDs, traits = read_traitsF('file_path/Example_Traits_file_name.csv')
 
 rr, glgm, glgm_topGD, topGD_index = GDsearch_all(traits,variants) 
