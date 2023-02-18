@@ -22,7 +22,7 @@ element_run = Parallel(n_jobs=-1)(delayed(lgMcal_1)(var) for var in varIDs[0:100
 Figure 2. A Bayesian method for GWAS analysis. "Figure 2.ipynb" jupyter-notebook file  generate the Figure 2a, 2b, and 2c
 
 # Figure 3
-Figure 3. Comparison of IBI and GWAS. "Figure 3.ipynb" jupyter-notebook file  generate the Figure 3c, 3d, and 3e.
+Figure 3. Comparison of IBI and GWAS. "Figure 3.ipynb" jupyter-notebook file  generate the Figure 3c, and 3d.
 For Figures 3a and 3b, follow the steps below.:
   Step 1: Use OriginPro software 
   Step 2: Use its Manhattan plot app 
